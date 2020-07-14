@@ -1,8 +1,8 @@
 # Design pattern: Observer pattern example
 
 ## Ví dụ 1: 
-``Giả sử hệ thống của chúng ta cần theo dõi về tài khoản của người dùng. Mọi thao tác của người dùng đều cần được ghi log lại, sẽ thực hiện gửi mail thông báo khi tài khoản hết hạn, thực hiện chặn người dùng nếu truy cập không hợp lệ, …``
+- Giả sử hệ thống của chúng ta cần theo dõi về tài khoản của người dùng. Mọi thao tác của người dùng đều cần được ghi log lại, sẽ thực hiện gửi mail thông báo khi tài khoản hết hạn, thực hiện chặn người dùng nếu truy cập không hợp lệ, …
 
 ## 2. Ví dụ 2: 
-``A làm việc cho một công ty gia công phần mềm. Công ty nhận được một đơn đặt hàng cho việc thiết kế và xây dựng một hệ thống phần mềm cho một trạm quan sát thời tiết. Dữ liệu của hệ thống được xây dựng thông qua một đối tượng gọi là WeatherData - đóng vai trò theo dõi điều kiện thời tiết hiện tại (nhiệt độ, độ ẩm, áp suất). 
-Bên khách hàng yêu cầu công ty xây dựng một ứng dụng mà cung cấp 3 phần tử màn hình hiển thị: CurrentConditionDisplay, StatsisticsDisplay, ForcastDisplay, tất cả sẽ được cập nhật theo thời gian thực mỗi khi đối tượng WeatherData lấy được dữ liệu mới nhất. Ngoài ra, trạm quan sát cũng muốn "public" những API để những lập trình viên khác có thể viết ra những màn hình hiển thị thời tiết của riêng họ.``
+- A làm việc cho một công ty gia công phần mềm. Công ty nhận được một đơn đặt hàng cho việc thiết kế và xây dựng một hệ thống phần mềm cho một trạm quan sát thời tiết. Dữ liệu của hệ thống được xây dựng thông qua một đối tượng gọi là WeatherData - đóng vai trò theo dõi điều kiện thời tiết hiện tại (nhiệt độ, độ ẩm, áp suất). ``
+- Bên khách hàng yêu cầu công ty xây dựng một ứng dụng mà cung cấp 3 phần tử màn hình hiển thị: CurrentConditionDisplay, StatsisticsDisplay, ForcastDisplay, tất cả sẽ được cập nhật theo thời gian thực mỗi khi đối tượng WeatherData lấy được dữ liệu mới nhất. Ngoài ra, trạm quan sát cũng muốn "public" những API để những lập trình viên khác có thể viết ra những màn hình hiển thị thời tiết của riêng họ.
