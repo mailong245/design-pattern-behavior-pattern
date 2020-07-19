@@ -6,7 +6,7 @@ import mailong245.VisitorPattern.SingleDispatch.customer.Customer;
 import mailong245.VisitorPattern.SingleDispatch.customer.Developer2;
 import mailong245.VisitorPattern.SingleDispatch.customer.Developer;
 
-public class SingleDispatcherApplication {
+public class SingleDispatchApplication {
     /**
      * Trong Java, chúng ta có thể định nghĩa các phương thức cùng tên nhưng khác nhau về tham số (tính đa hình).
      * Một phương thức được gọi sẽ dựa trên 2 yếu tố: Tên của phương thức và kiểu đối tượng gọi nó
