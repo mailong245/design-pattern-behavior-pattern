@@ -13,3 +13,4 @@
 
 ## Visitor pattern example
 - Ví dụ:
+  - Phân loại sách
