@@ -6,7 +6,7 @@ public class JavaCoreBook implements ProgramingBook {
 
     @Override
     public void accept(Visitor v) {
-        v.visita(this);
+        v.visit(this);
     }
 
     @Override

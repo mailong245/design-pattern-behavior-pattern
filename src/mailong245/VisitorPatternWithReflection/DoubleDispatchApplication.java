@@ -17,5 +17,6 @@ public class DoubleDispatchApplication {
         book2.accept(v);
         book3.accept(v);
         book4.accept(v);
+
     }
 }

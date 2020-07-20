@@ -5,7 +5,7 @@ import mailong245.VisitorPatternWithReflection.Visitor.Visitor;
 public class OtherBook implements ProgramingBook {
     @Override
     public void accept(Visitor v) {
-        v.visita(this);
+        v.visit(this);
     }
 
     @Override

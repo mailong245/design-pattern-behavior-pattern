@@ -4,7 +4,7 @@ import mailong245.VisitorPatternWithReflection.Visitor.Visitor;
 
 public class BusinessBook implements Book {
     public void accept(Visitor v) {
-        v.visita(this);
+        v.visit(this);
     }
 
     public String getPublisher() {
