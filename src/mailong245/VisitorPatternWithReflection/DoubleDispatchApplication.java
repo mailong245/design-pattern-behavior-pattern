@@ -6,7 +6,7 @@ import mailong245.VisitorPatternWithReflection.Visitor.VisitorImpl;
 
 public class DoubleDispatchApplication {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Book book1 = new BusinessBook();
         Book book2 = new JavaCoreBook();
         Book book3 = new DesignPatternBook();
