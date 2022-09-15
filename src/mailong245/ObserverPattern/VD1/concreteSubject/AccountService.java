@@ -64,7 +64,7 @@ public class AccountService implements Subject {
     }
 
     private boolean isValidEmail() {
-        return "contact@gpcoder.com".equalsIgnoreCase(user.getEmail());
+        return "contact@mailong245.com".equalsIgnoreCase(user.getEmail());
     }
 
 }
